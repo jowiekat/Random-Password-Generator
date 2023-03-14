@@ -1,0 +1,67 @@
+body{
+margin: 0; /*Removes the default margin of the browser*/
+background:linear-gradient(208deg, #26dc51 0%, #6284FF 33%, #FF0000 66%, #ffffff 100%);
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: monospace;
+}
+
+.container {
+    background: rgb(255, 155, 155, .3);
+    box-shadow: 14px 14px 5px -3px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 85%;
+}
+
+
+.heading{
+   font-size: 35px; 
+   font-weight: 200px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-shadow: 5px 5px 2px  rgba(0, 0, 0, 0.8);
+   letter-spacing: 4px;
+  
+
+}
+
+.heading, button {
+color: rgb(255, 215, 0);
+}
+
+.password {
+    font-size: 25px;
+    font-weight: 800px;
+    margin: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.btn {
+    font-size: 14px;
+    font-weight: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    background-color: rgb(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .2);
+    text-transform: uppercase; /*changes font to uppercase*/
+    font-weight: 600px;
+}
+
+
+.btn:hover {
+    background-color: rgb(255, 255, 255, .3);
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);/*adds a box-shadow effect when   the pointer hovers close to the botton*/
+    transition: all, 500ms ease; /*slows down btn hover effect*/
+    transform: scale(1.5);
+}
+
+.container:hover {
+    transform: scale(1.5);
+    color:cyan
+}
